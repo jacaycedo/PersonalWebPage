@@ -1,0 +1,84 @@
+.txt-type
+{
+    border-right: .15em solid #e4e4e4; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    font-family: 'Consolas';
+    color:#e4e4e4;
+    animation: 
+      blink-caret .75s step-end infinite;
+}
+body
+{
+    background-color:#222222;
+}
+#add
+{
+    color:#e4e4e4; 
+}
+#section-tittle
+{
+    color:#e4e4e4;
+    text-align: left;
+    font-family: consolas;
+}
+h2
+{
+    letter-spacing: .15em; 
+    text-align: center;
+    color:#e4e4e4;
+}
+h1
+{
+    color:#e4e4e4;
+    text-align: center;
+}
+h3
+{
+    color:#e4e4e4;
+    text-align: center;
+    font-family: consolas;
+}
+h4
+{
+    color:#e4e4e4;
+    text-align: center;
+}
+svg.top
+{
+    color:#277070;
+}
+svg.top:hover
+{
+    color:#e4e4e4;
+}
+.progress-bar
+{
+    background-color:#08A3A3;
+}
+.progress-bar#sec
+{
+    background-color:#277070;
+}
+.navbar
+{
+    background-color: #044343;
+}
+a
+{
+    color: #e4e4e4;
+}
+a:hover
+{
+    color:#08A3A3;
+}
+p
+{
+    color: #e4e4e4;
+}
+@keyframes blink-caret
+{
+    from, to { border-color: transparent }
+    50% { border-color:#e4e4e4; }
+}
